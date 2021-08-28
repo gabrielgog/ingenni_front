@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #edeef7;
+}
+
+form {
+  text-align: center;
+}
+
+#img {
+  position: absolute;
+  width: 475px;
+  height: 278px;
+  left: -23px;
+  top: -29px;
+
+  background: url(.png);
+}
+
+.logo {
+  width: 200px;
+  height: 118px;
+}
+
+label {
+  font-size: 1.7rem;
+}
+
+select {
+  width: 500px;
+  height: 67px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+.submit-button {
+  width: 400px;
+  height: 87px;
+  top: 752px;
+  background: #ffc947;
+  border-radius: 25px;
+  color: #39a2db;
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  border: none;
+}
+
+/* body design */
+
+.first-dot {
+  position: absolute;
+  width: 204px;
+  height: 180px;
+  left: -82px;
+  top: 329px;
+  border: 12px dotted #ffc947;
+}
+
+.second-dot {
+  position: relative;
+  width: 204px;
+  height: 100px;
+  left: 1050px;
+  top: 80px;
+  border: 12px dotted #39a2db;
+}
