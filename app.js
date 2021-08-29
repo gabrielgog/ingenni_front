@@ -1,9 +1,13 @@
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener("DOMContentLoaded", (event) => {
+//   setTimeout(() => {
+//     window.location.href = "home.html";
+//   }, 5000);
 
-    setTimeout(() => {
-        window.location.href = "home.html"
+  const logo = document.getElementById("logo");
 
-    }, 5000);
+  logo.addEventListener('click', (event) =>{
+    window.location.href = 'index.html'
+})
 
 
 });

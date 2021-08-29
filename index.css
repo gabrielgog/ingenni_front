@@ -75,3 +75,8 @@ input[type="submit"] {
   top: 80px;
   border: 12px dotted #39a2db;
 }
+
+
+footer{
+    text-align: center;
+}
