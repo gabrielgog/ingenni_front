@@ -80,3 +80,72 @@ input[type="submit"] {
 footer{
     text-align: center;
 }
+
+
+/* modbile screen */
+
+@media screen and (max-width: 700px) {
+
+  form {
+    text-align: center;
+  }
+  
+  
+  .logo {
+    width: 200px;
+    height: 118px;
+  }
+  
+  label {
+    font-size: 1.7rem;
+  }
+  
+  select {
+    width: 300px;
+    height: 57px;
+  
+    background: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 25px;
+  }
+  
+  .submit-button {
+    width: 300px;
+    height: 87px;
+    top: 752px;
+    background: #ffc947;
+    border-radius: 25px;
+    color: #39a2db;
+    font-size: 20px;
+  }
+  
+  input[type="submit"] {
+    border: none;
+  }
+  
+  
+   .first-dot {
+    position: fixed;
+    width: 204px;
+    height: 180px;
+    left: 330px;
+    top: 10px;
+    border: 12px dotted #ffc947;
+  } 
+  
+  .second-dot {
+    position: fixed;
+    width: 204px;
+    height: 100px;
+    left: 20px;
+    top: 585px;
+    border: 12px dotted #39a2db;
+  } 
+  
+  footer{
+      text-align: center;
+  }
+  
+}
+
